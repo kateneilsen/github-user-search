@@ -1,8 +1,31 @@
 *{
   font-family: 'Space Mono', monospace;
+  font-size: 16px;
 }
 
-.background{
+.title{
+  font-size: 26px;
+}
+
+main{
   background-color: #F6F8FF;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
+section{
+  display: flex;
+  justify-content: center;
+}
+
+.username{
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.card{
+  max-width: 760px;
+}
+

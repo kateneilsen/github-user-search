@@ -4,10 +4,12 @@ import Search from "./Search";
 
 function App() {
   return (
-    <div class="background">
+    <main className="background">
       <Header />
-      <Search />
-    </div>
+      <section>
+        <Search />
+      </section>
+    </main>
   );
 }
 
