@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | GitHub user search app</title>
+</head>
+
+<body>
+  <!-- 
+  devfinder
+
+  Light
+  Dark
+
+  Search GitHub username...
+  Search
+
+  Joined
+
+  Repos
+  Followers
+  Following -->
+  <section>
+    <span class="flex">
+      <h1>devfinder</h1>
+      <h6>DARK
+        <img src="assets/icon-moon.svg" />
+      </h6>
+    </span>
+    <span class="item flex">
+      <img class="search-icon" src="assets/icon-search.svg" />
+      <input type="text" id="search" placeholder="Search GitHub username..." />
+      <button>Search</button>
+    </span>
+    <span class="item card">
+      <div class="user-top-row">
+        <div class="circle"></div>
+        <div class="user-heading">
+          <b>User Name</b>
+          <a class="username">@username</a>
+          <p>Joined 25 Jan 2011</p>
+        </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
+      <div class="user-github-counts">
+        <span class="github-count">
+          <p>Repos</p>
+          <b>8</b>
+        </span>
+        <span class="github-count">
+          <p>Followers</p>
+          <b>8</b>
+        </span>
+        <span class="github-count">
+          <p>Following</p>
+          <b>8</b>
+        </span>
+      </div>
+      <div class="socials">
+        <a>
+          <img src="assets/icon-location.svg" alt="location" />
+          Location
+        </a>
+        <a>
+          <img src="assets/icon-website.svg" alt="website" />
+          website.com
+        </a>
+        <a>
+          <img src="assets/icon-twitter.svg" alt="twitter" />
+          @twitter
+        </a>
+        <a>
+          <img src="assets/icon-company.svg" alt="company" />
+          @company
+        </a>
+    </span>
+    </span>
+  </section>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
